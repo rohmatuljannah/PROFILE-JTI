@@ -1,0 +1,260 @@
+<html>
+    <head>
+    <title>WEB TI</title>
+    <style>
+    * {margin:0; padding:0;}
+
+    body {
+     background-color:#fff;
+     font-family: Garamond, serif;;
+     color:#000;
+    }
+
+    nav {
+     margin:auto;
+     text-align: center;
+     width: 100%;
+    } 
+
+    nav ul ul {
+     display: none;
+    }
+
+    nav ul li:hover > ul{
+    display: block;
+    width: 100%;
+    }
+
+    nav ul {
+     background:blue;
+     list-style: none;
+     position: relative;
+     display: inline-table;
+     width: 100%;
+    }
+
+    nav ul:after {
+     content: ""; 
+     clear:both; 
+     display: block;
+    }
+
+    nav ul li{
+     float:left;
+    }
+
+    nav ul li:hover{
+     background:#87CEFA;
+    }
+
+    nav ul li:hover a{
+     color:black;
+    }
+
+    nav ul li a{
+     display: block;
+     padding: 25px;
+     color: #fff;
+     text-decoration: none;
+     font-family: "Bookman Old Style", serif;
+    }
+
+    nav ul ul{
+     background: #53bd84;
+     border-radius: 0px;
+     padding: 0;
+     position: absolute;
+     top:100%;
+    }
+
+    nav ul ul li{
+     float:none;
+     border-top: 1px soild #53bd84;
+     border-bottom: 1px solid #53bd84;
+     position: relative;
+    }
+
+    nav ul ul li a{
+     padding: 15px 40px;
+     color: #fff;
+    }
+
+    nav ul ul li a:hover{
+     background-color: #666;
+    }
+
+    nav ul ul ul{
+     position: absolute;
+     left: 100%;
+     top: 0;
+    }
+    .header{
+     background: #FF8C00;
+     height: 150px;
+     padding: 2px 10px;
+     color: white;
+     text-align: center;
+     padding: 20px 20px 20px 20px;
+    }
+    ol {
+      display: block;
+      list-style-type: decimal;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 40px;
+
+    }
+    p {
+        text-align: justify;
+    }
+    h1 {
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <marquee bgcolor="#87CEEB" style="font-family:Lucida Sans Unicode ;font-size:20px; ">Assalamu'alaikum warohmatullahi wabarokatuh</marquee> 
+    <div class="header">  
+       <img src="logo.png" width="100px" height="100px"> 
+         <h1>TEKNIK INFORMATIKA POLINDRA</h1>
+         <a align="center">Alamat Jl. Lohbener Lama No. 08 Indramayu Telp (0234) 5746464 Email ti@polindra.ac.id
+         </a>
+       </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Info Jurusan</a></li>
+                <li><a href="#">Laboratorium</a></li>
+                <li><a href="#">Alumni</a></li>
+                <li><a href="#">Saran</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <section>
+            <img src="a.png" width="100%" height="37%"> 
+        </section>
+     <br/> 
+    
+    <div id="sidebar" style="width: 350px; height: 900px; float: right;">          
+       <form>
+          <fieldset>
+           <legend><h1>Form Kritik & Saran</h1></legend>
+           Nama Lengkap:<br>
+             <input type="text" name="nama" required><br>
+           Alamat Email:<br>
+             <input type="email" name="email" required><br>
+           Pesan/Saran:<br>
+             <textarea rows="4" cols="40"></textarea>
+           
+         <br>
+             <input type="button" value="KIRIM">
+        </fieldset>   
+       </form>
+       <br>
+            <table border="1">
+                <tr>
+                    <td bgcolor="#FF8C00"><h1 align="center">Testimoni Alumni</h1></td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="heru.png" width="150px" height="150px"><p>"setelah lulus saya langsung sekarang bekerja sebagai Teknisi Jaringan di BANK Danamon Jakarta."</p>
+                       
+                    </td>
+                </tr>
+            </table><br>
+            <a href="http://elearning.ti.polindra.ac.id/calendar/view.php?view=month&time=1567270800&course=1"><img src="calender.png" width="300px" height="200px"></a>
+           
+            <br>
+            <table border="1" width="200px" hight="600px"><br/>
+                <tr>
+                    <td bgcolor="aqua" width="50px" height="30px"><h3>Follow Us :</h3><br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="fb.png" width="20px" height="20px"><a href="https://www.facebook.com/Teknik.Informatika.Polindra/">Facebook<br/>
+                    <img src="ig.png" width="20px" height="20px"><a href="https://www.instagram.com/tipolindra/">instagram<br/>
+                    <img src="bbm.png" width="20px" height="20px">BBM <br/>
+                    <img src="playstore.png" width="20px" height="20px"><a href="https://play.google.com/store/apps/details?id=ti.polindra.ac.id.informatika ">Play Store</td>
+                </tr>
+            </table>
+           </div>
+        </div>
+        <div class="sidebar-content">
+     
+         <div class="visi dan misi" style="padding: 10px 20px 30px 25px; text-align: left; width: 300px; height: 800px; float: left;">
+            <h1>Visi Dan Misi</h1>
+                <h2>Visi</h2>
+                <p>”Program Studi Terdepan di bidang Teknik Informatika Tingkat Nasional dan Berdaya Saing Global”</p><br/>
+                <h2>Misi</h2>
+                <ol>
+                    <li><p>Meningkatkan mutu, akses, dan relevansi pendidikan Politeknik di bidang Teknik Informatika untuk menghasilkan lulusan sesuai kebutuhan pekerjaan;</p></li>
+                    <li><p>Melakukan penelitian terapan dan pengabdian masyarakat di bidang Teknik Informatika untuk mengatasi persoalan industri dan masyarakat</p></li>
+                </ol>
+            <h1>Laboratorium</h1>
+                <img src="lab-so.png" width="250px" height="200px">
+                <img src="14.png" width="250px" height="200px">
+                <p>Laboratorium yang tersedia : 
+                    <ol>
+                        <li>Lab pemrograman</li>
+                        <li>Basis Data</li>
+                        <li>Jaringan komputer</li>
+                        <li>IT Terapan</li>
+                        <li>Sistem Operasi</li>
+                        <li>Multimedia</li>
+                        <li>Elektronika dan Sistem Digital</li>
+                       
+                    </ol>
+                </p>
+         </div>
+
+      <div class="prodi"style="padding: 10px 20px 30px 25px; text-align: left; width: 400px; height: 800px; float: left;  ">
+            <h1>PRODI D3 TEKNIK INFORMATIKA</h1>
+            <h2>Visi</h2><br/>
+                <p style="text-align: justify;">“Menjadi program studi yang unggul di bidang Teknologi informasi dan menghasilkan tenaga profesional yang bermoral, mandiri, serta mampu bersaing di dunia industri”.</p>
+
+            <br><h2>Misi</h2>
+            <ul>
+                <li><p>Menyelenggarakan program pendidikan di bidang Teknologi informasi berbasis industri.</p></li>
+                <li><p>Menjalin kerjasama dengan pihak stakeholder serta melaksanakan pengabdian masyarakat secara simultan.</p></li>
+                <li><p>Melakukan penelitian dan pengembangan keilmuan di bidang Teknologi informasi dari permasalahan yang terjadi di dunia industri.</p></li>
+            </ul></p>
+            <br>
+            <h1>PRODI D4 REKAYASA PERANGKAT LUNAK</h1>
+            <br>
+            <h2>Visi</h2><br>
+                <p >"Menjadi program studi yang unggul di bidang Software Engineering tingkat nasional dan berdaya saing global".</p><br>
+            <h2>Misi</h2><br>
+                <ul>
+                    <li><p>Meningkatkan mutu, akses, dan relevansi pendidikan Politeknik di bidang Software Engineering untuk menghasilkan lulusan sesuai kebutuhan pekerjaan</p></li>
+                    <li><p>Melakukan penelitian terapan dan pengabdian masyarakat di bidang Software Engineering untuk mengatasi persoalaan industri dan masyarakat</p></li>
+                </ul>
+                <br>
+            <div class="Denah lokasi">
+                <h1>Denah Lokasi</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.888990056405!2d108.27970671483465!3d-6.40829899536331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x29e8f37ce7da10f5!2sJurusan%20Teknik%20Informatika%20POLINDRA!5e0!3m2!1sid!2sid!4v1570582891392!5m2!1sid!2sid" width="400" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </div>
+      <div class="profil lulusan"style="padding: 10px; margin: 5px; text-align: left; width: 400px; height: 800px; float: left; ">
+            <h1>PROFIL LULUSAN</h1>
+             <h2>Profil Lulusan D3</h2>
+                <ol>
+                    <li><p>Pemrogram aplikasi (Programmer Application)</p></li>
+                    <li><p>Merancang aplikasi dan basis data (Designer Application and database)</p></li>
+                    <li><p>Admin Jaringan (Networking Administrator)</p></li>
+                    <li><p>Pendukung kebutuhan IT perusahaan/industri (IT Support)<p></li>
+                    <li><p>Intrapreneur / technopreuner</p></li>
+                </ol>
+                <h2>Profil Lulusan D4</h2>
+                <ol>
+                    <li><p>System Analyst : mampu menganalisis dan menspesifikasikan kebutuhan perangkat lunak berskala besar dengan dokumentasi yang mengacu standar IEEE Std 829-1998 atau standar lain.</p></li>
+                    <li><p>Software Developer : mampu mengembangkan perangkat lunak dengan menerapkan metodologi pengembangan perangkat lunak yang sesuai dengan perkembangan terkini agar menghasilkan perangkat lunak yang sesuai dengan kebutuhan pengguna.</p></li>
+                    <li><p> Software Tester: mampu melakukan pengujian  perangkat lunak menggunakan metode black box dan atau white box sesuai kebutuhan.</p></li>
+                    <li><p>Software Maintenance: mampu melakukan perawatan perangkat lunak dari tingkat sederhana sampai dengan kompleks.<p></li>
+                    <li><p>Technopreneur : Mempu menginternalisasi semangat kemandirian kejuangan dan kewirausahaan, serta mampu menunjukkan sikap bertanggung jawab, jujur, dan disiplin  atas pekerjaan dibidang keahliannya secara mandiri.<p></li>
+                </ol>
+        </div>
+    </div>
+</body>
+</html>
